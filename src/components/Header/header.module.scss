@@ -1,1 +1,14 @@
-// TODO
+.headerContainer {
+    position: absolute;
+    max-width: 70rem;
+    height: 6.563rem;
+    left: 10rem;
+    top: 0;
+}
+
+.logo {
+    position: absolute;
+    top: 2.5rem;
+    left: 13.125rem;
+    cursor: pointer;
+}
