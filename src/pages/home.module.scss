@@ -1,14 +1,12 @@
 .container {
     max-width: 70rem;
     margin: 0 auto;
+    padding: 0 2rem;
 }
 
 .posts {
-    position: absolute;
     max-width: 700px;
-    height: 108px;
-    left: 370px;
-    top: 170px;
+    margin-top: 4rem;
 
     a {
       display: block;
@@ -37,25 +35,18 @@
         color: var(--body);
         margin-bottom: 1.5rem;
       }
+    }
 
-      .info {
-        display: flex;
-        align-items: baseline;
-        flex-direction: row;
-        width: 100%;
-        color: var(--info);
-        font-size: 0.875rem;
-        line-height: 17px;
+    button {
+      height: 1.375rem;
+      margin-top: 4rem;
 
-        time {
-          margin-left: 0.5rem;
-          margin-right: 1.5rem;
-        }
-
-        p {
-          margin-left: 0.5rem;
-          font-size: 0.875rem;
-        }
-      }
+      background-color: transparent;
+      border: none;
+      color: var(--highlight);
+      font-size: 1.125rem;
+      font-weight: 600;
+      line-height: 1.375rem;
+      text-align: justify;
     }
 }
